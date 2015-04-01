@@ -1,0 +1,344 @@
+.txt-mountain-meadow .f-btn {
+  color: #1abc9c;
+  border-color: #1abc9c;
+}
+.txt-mountain-meadow .f-btn.highlight {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+.txt-mountain-meadow .f-btn:hover {
+  color: #ffffff;
+  background: #b8312f;
+  border-color: #b8312f;
+}
+.txt-mountain-meadow .r-btn {
+  color: #ffffff;
+  border-color: #1abc9c;
+  background: #1abc9c;
+}
+.txt-mountain-meadow .r-btn:hover {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-mountain-meadow .r-btn.highlight {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-mountain-meadow .r-btn.highlight:hover {
+  color: #ffffff;
+  background: #d14b49;
+  border-color: #d14b49;
+}
+.hi-mountain-meadow .f-btn:hover {
+  background: #1abc9c !important;
+  border-color: #1abc9c !important;
+  color: #ffffff !important;
+}
+.hi-mountain-meadow .f-btn.highlight {
+  color: #1abc9c !important;
+  border-color: #1abc9c !important;
+}
+.hi-mountain-meadow .f-btn.highlight:hover {
+  color: #ffffff !important;
+}
+.hi-mountain-meadow .r-btn:hover {
+  color: #ffffff !important;
+  background: #1abc9c !important;
+  border-color: #1abc9c !important;
+}
+.hi-mountain-meadow .r-btn.highlight {
+  color: #ffffff !important;
+  background: #1abc9c !important;
+  border-color: #1abc9c !important;
+}
+.hi-mountain-meadow .r-btn.highlight:hover {
+  background: #148f77 !important;
+  border-color: #148f77 !important;
+}
+.txt-mountain-meadow {
+  color: #1abc9c;
+}
+.txt-mountain-meadow .bordered {
+  border-color: #1abc9c;
+}
+.txt-mountain-meadow .highlight {
+  color: #b8312f;
+}
+.txt-mountain-meadow .highlight.bordered {
+  border-color: #b8312f;
+}
+.txt-mountain-meadow .box {
+  border-color: #1abc9c;
+}
+.txt-mountain-meadow .box * {
+  border-color: #1abc9c;
+}
+.hi-mountain-meadow .highlight {
+  color: #1abc9c !important;
+}
+.hi-mountain-meadow .highlight.bordered {
+  border-color: #1abc9c;
+}
+.txt-mountain-meadow .alt-link {
+  color: #1abc9c;
+}
+.txt-mountain-meadow .colored-box {
+  color: #1abc9c;
+}
+.txt-mountain-meadow .colored-box a.alt-link:not(.box-link) {
+  color: #1abc9c;
+}
+.txt-mountain-meadow .colored-box a.alt-link:not(.box-link):hover {
+  color: #e59c9b;
+}
+.txt-mountain-meadow .colored-box a.box-link {
+  color: #1abc9c;
+}
+.txt-mountain-meadow .hover-box {
+  border-color: #1abc9c;
+}
+.txt-mountain-meadow .hover-box *:not(.highlight) {
+  color: #1abc9c;
+}
+.txt-mountain-meadow .hover-box:hover {
+  color: #ffffff;
+}
+.txt-mountain-meadow .hover-box:hover * {
+  color: #ffffff;
+}
+.txt-mountain-meadow .network-icon {
+  background: #1abc9c;
+  color: #ffffff;
+}
+.txt-mountain-meadow .network-icon:not(.r-btn):not(.f-btn):hover {
+  background: #28e1bd;
+  border-color: #28e1bd;
+}
+.txt-mountain-meadow .network-icon.f-btn {
+  color: #1abc9c;
+}
+.hi-mountain-meadow:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link) {
+  color: #1abc9c;
+}
+.hi-mountain-meadow:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link).network-icon {
+  color: #ffffff;
+}
+.hi-mountain-meadow:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link):hover {
+  color: #117964;
+}
+.hi-mountain-meadow .alt-link:hover {
+  color: #1abc9c !important;
+}
+.hi-mountain-meadow .colored-box {
+  background: #1abc9c;
+  color: #ffffff;
+}
+.hi-mountain-meadow .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+  color: #81eed8;
+}
+.hi-mountain-meadow .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+  color: #dbfaf4;
+}
+.hi-mountain-meadow .colored-box a.alt-link {
+  color: #ffffff;
+}
+.hi-mountain-meadow .colored-box a.alt-link:hover {
+  color: #81eed8 !important;
+}
+.hi-mountain-meadow .colored-box a.box-link {
+  color: #ffffff;
+}
+.hi-mountain-meadow .colored-box a.box-link:after {
+  background-color: #000000;
+}
+.hi-mountain-meadow .hover-box *:not(.highlight) {
+  color: #252525;
+}
+.hi-mountain-meadow .hover-box:hover {
+  background: #1abc9c;
+  color: #ffffff !important;
+}
+.hi-mountain-meadow .hover-box:hover * {
+  color: #ffffff !important;
+}
+.hi-mountain-meadow .network-icon.f-btn:not([class*='-hover']):hover {
+  color: #252525;
+  background: #1abc9c;
+  border-color: #1abc9c;
+}
+.hi-mountain-meadow .network-icon.f-btn.highlight:hover {
+  background: #1abc9c;
+  color: #252525;
+}
+.bg-mountain-meadow:not([class*='overlay-']) {
+  background-color: #1abc9c;
+}
+.bg-mountain-meadow[class*='overlay-']:after {
+  background-color: #1abc9c;
+}
+.bg-mountain-meadow[class*='overlay-'] .contrast-bg {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.hi-mountain-meadow .bg-highlight {
+  background-color: #1abc9c !important;
+  color: #ffffff !important;
+}
+.hi-mountain-meadow .border-highlight {
+  border-color: #1abc9c !important;
+}
+/* nav-in class in added to html. */
+/* Collapse */
+header.bg-mountain-meadow,
+header.menu-bg-mountain-meadow .navbar-collapse.in,
+header.menu-bg-mountain-meadow .navbar-collapse.collapsing {
+  background-color: #1abc9c;
+}
+header.txt-mountain-meadow ul.nav > li.nav-btn a,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+  border-color: #1abc9c;
+}
+header.txt-mountain-meadow ul.nav > li > a,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a {
+  color: #1abc9c;
+}
+header.txt-mountain-meadow ul.nav > li > a.active,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-mountain-meadow ul.nav > li > a.active.filled,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  color: #b8312f;
+  color: #ffffff;
+}
+header.txt-mountain-meadow ul.nav > li > a.popout,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #b8312f;
+  border-color: #b8312f;
+  background-color: transparent;
+}
+header.txt-mountain-meadow ul.nav > li > a.popout.filled,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #b8312f;
+  color: #ffffff;
+}
+header.txt-mountain-meadow ul.nav > li > a.popout:hover,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #b8312f;
+  color: #ffffff;
+}
+header.txt-mountain-meadow ul.nav > li > a.filled:hover,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14b49;
+  background-color: #d14b49;
+  color: #ffffff;
+}
+header.txt-mountain-meadow ul.nav > li > a:hover,
+header.menu-txt-mountain-meadow .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-mountain-meadow a.brand,
+header.menu-txt-mountain-meadow .navbar-collapse.in a.brand,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing a.brand {
+  color: #1abc9c;
+}
+header.txt-mountain-meadow button.dismiss-navbar,
+header.menu-txt-mountain-meadow .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-mountain-meadow .navbar-collapse.collapsing button.dismiss-navbar {
+  color: #1abc9c;
+}
+header.txt-mountain-meadow .navbar-toggle {
+  color: #1abc9c;
+}
+header.txt-mountain-meadow .navbar-toggle .icon-bar {
+  background-color: #1abc9c;
+}
+header.hi-mountain-meadow a.brand:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.in a.brand:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing a.brand:hover {
+  color: #1abc9c;
+}
+header.hi-mountain-meadow ul.nav > li > a.active,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #1abc9c !important;
+  border-color: #1abc9c !important;
+}
+header.hi-mountain-meadow ul.nav > li > a.active.filled,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  background-color: #1abc9c !important;
+  color: #ffffff !important;
+}
+header.hi-mountain-meadow ul.nav > li > a.popout,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #1abc9c !important;
+  border-color: #1abc9c !important;
+}
+header.hi-mountain-meadow ul.nav > li > a.popout.filled,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #1abc9c !important;
+  color: #ffffff !important;
+}
+header.hi-mountain-meadow ul.nav > li > a.popout.filled:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+  border-color: #148f77 !important;
+  background-color: #148f77 !important;
+  color: #ffffff !important;
+}
+header.hi-mountain-meadow ul.nav > li > a.popout:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #1abc9c !important;
+  color: #ffffff !important;
+}
+header.hi-mountain-meadow ul.nav > li > a.filled:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #1abc9c !important;
+  background-color: #1abc9c !important;
+  color: #ffffff !important;
+}
+header.hi-mountain-meadow ul.nav > li > a:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-mountain-meadow .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #1abc9c !important;
+  border-color: #1abc9c !important;
+}
+footer.bg-mountain-meadow {
+  background: #1abc9c;
+}
+footer.txt-mountain-meadow {
+  border-top-color: #1abc9c;
+}
+.bg-mountain-meadow .form-inline .input-group-btn.f-btn {
+  background: #1abc9c;
+}
+.bg-mountain-meadow .form-inline .input-group-btn.f-btn:hover {
+  background: #b8312f;
+}
+.txt-mountain-meadow .form-control {
+  border-color: #1abc9c;
+}
+.txt-mountain-meadow .form-inline .input-group .input-group-btn:not(.f-btn):not(.r-btn) {
+  border-color: #1abc9c;
+}
+.hi-mountain-meadow .form-inline .input-group-btn.f-btn:hover {
+  background: #1abc9c;
+}

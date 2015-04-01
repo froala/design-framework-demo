@@ -1,0 +1,344 @@
+.txt-valencia .f-btn {
+  color: #d14841;
+  border-color: #d14841;
+}
+.txt-valencia .f-btn.highlight {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+.txt-valencia .f-btn:hover {
+  color: #ffffff;
+  background: #b8312f;
+  border-color: #b8312f;
+}
+.txt-valencia .r-btn {
+  color: #ffffff;
+  border-color: #d14841;
+  background: #d14841;
+}
+.txt-valencia .r-btn:hover {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-valencia .r-btn.highlight {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-valencia .r-btn.highlight:hover {
+  color: #ffffff;
+  background: #d14b49;
+  border-color: #d14b49;
+}
+.hi-valencia .f-btn:hover {
+  background: #d14841 !important;
+  border-color: #d14841 !important;
+  color: #ffffff !important;
+}
+.hi-valencia .f-btn.highlight {
+  color: #d14841 !important;
+  border-color: #d14841 !important;
+}
+.hi-valencia .f-btn.highlight:hover {
+  color: #ffffff !important;
+}
+.hi-valencia .r-btn:hover {
+  color: #ffffff !important;
+  background: #d14841 !important;
+  border-color: #d14841 !important;
+}
+.hi-valencia .r-btn.highlight {
+  color: #ffffff !important;
+  background: #d14841 !important;
+  border-color: #d14841 !important;
+}
+.hi-valencia .r-btn.highlight:hover {
+  background: #db706a !important;
+  border-color: #db706a !important;
+}
+.txt-valencia {
+  color: #d14841;
+}
+.txt-valencia .bordered {
+  border-color: #d14841;
+}
+.txt-valencia .highlight {
+  color: #b8312f;
+}
+.txt-valencia .highlight.bordered {
+  border-color: #b8312f;
+}
+.txt-valencia .box {
+  border-color: #d14841;
+}
+.txt-valencia .box * {
+  border-color: #d14841;
+}
+.hi-valencia .highlight {
+  color: #d14841 !important;
+}
+.hi-valencia .highlight.bordered {
+  border-color: #d14841;
+}
+.txt-valencia .alt-link {
+  color: #d14841;
+}
+.txt-valencia .colored-box {
+  color: #d14841;
+}
+.txt-valencia .colored-box a.alt-link:not(.box-link) {
+  color: #d14841;
+}
+.txt-valencia .colored-box a.alt-link:not(.box-link):hover {
+  color: #e59c9b;
+}
+.txt-valencia .colored-box a.box-link {
+  color: #d14841;
+}
+.txt-valencia .hover-box {
+  border-color: #d14841;
+}
+.txt-valencia .hover-box *:not(.highlight) {
+  color: #d14841;
+}
+.txt-valencia .hover-box:hover {
+  color: #ffffff;
+}
+.txt-valencia .hover-box:hover * {
+  color: #ffffff;
+}
+.txt-valencia .network-icon {
+  background: #d14841;
+  color: #ffffff;
+}
+.txt-valencia .network-icon:not(.r-btn):not(.f-btn):hover {
+  background: #db706a;
+  border-color: #db706a;
+}
+.txt-valencia .network-icon.f-btn {
+  color: #d14841;
+}
+.hi-valencia:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link) {
+  color: #d14841;
+}
+.hi-valencia:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link).network-icon {
+  color: #ffffff;
+}
+.hi-valencia:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link):hover {
+  color: #e0837f;
+}
+.hi-valencia .alt-link:hover {
+  color: #d14841 !important;
+}
+.hi-valencia .colored-box {
+  background: #d14841;
+  color: #ffffff;
+}
+.hi-valencia .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+  color: #efbfbc;
+}
+.hi-valencia .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+  color: #ffffff;
+}
+.hi-valencia .colored-box a.alt-link {
+  color: #ffffff;
+}
+.hi-valencia .colored-box a.alt-link:hover {
+  color: #efbfbc !important;
+}
+.hi-valencia .colored-box a.box-link {
+  color: #ffffff;
+}
+.hi-valencia .colored-box a.box-link:after {
+  background-color: #ffffff;
+}
+.hi-valencia .hover-box *:not(.highlight) {
+  color: #252525;
+}
+.hi-valencia .hover-box:hover {
+  background: #d14841;
+  color: #ffffff !important;
+}
+.hi-valencia .hover-box:hover * {
+  color: #ffffff !important;
+}
+.hi-valencia .network-icon.f-btn:not([class*='-hover']):hover {
+  color: #ffffff;
+  background: #d14841;
+  border-color: #d14841;
+}
+.hi-valencia .network-icon.f-btn.highlight:hover {
+  background: #d14841;
+  color: #ffffff;
+}
+.bg-valencia:not([class*='overlay-']) {
+  background-color: #d14841;
+}
+.bg-valencia[class*='overlay-']:after {
+  background-color: #d14841;
+}
+.bg-valencia[class*='overlay-'] .contrast-bg {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.hi-valencia .bg-highlight {
+  background-color: #d14841 !important;
+  color: #ffffff !important;
+}
+.hi-valencia .border-highlight {
+  border-color: #d14841 !important;
+}
+/* nav-in class in added to html. */
+/* Collapse */
+header.bg-valencia,
+header.menu-bg-valencia .navbar-collapse.in,
+header.menu-bg-valencia .navbar-collapse.collapsing {
+  background-color: #d14841;
+}
+header.txt-valencia ul.nav > li.nav-btn a,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+  border-color: #d14841;
+}
+header.txt-valencia ul.nav > li > a,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a {
+  color: #d14841;
+}
+header.txt-valencia ul.nav > li > a.active,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-valencia ul.nav > li > a.active.filled,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  color: #b8312f;
+  color: #ffffff;
+}
+header.txt-valencia ul.nav > li > a.popout,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #b8312f;
+  border-color: #b8312f;
+  background-color: transparent;
+}
+header.txt-valencia ul.nav > li > a.popout.filled,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #b8312f;
+  color: #ffffff;
+}
+header.txt-valencia ul.nav > li > a.popout:hover,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #b8312f;
+  color: #ffffff;
+}
+header.txt-valencia ul.nav > li > a.filled:hover,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14b49;
+  background-color: #d14b49;
+  color: #ffffff;
+}
+header.txt-valencia ul.nav > li > a:hover,
+header.menu-txt-valencia .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-valencia .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-valencia a.brand,
+header.menu-txt-valencia .navbar-collapse.in a.brand,
+header.menu-txt-valencia .navbar-collapse.collapsing a.brand {
+  color: #d14841;
+}
+header.txt-valencia button.dismiss-navbar,
+header.menu-txt-valencia .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-valencia .navbar-collapse.collapsing button.dismiss-navbar {
+  color: #d14841;
+}
+header.txt-valencia .navbar-toggle {
+  color: #d14841;
+}
+header.txt-valencia .navbar-toggle .icon-bar {
+  background-color: #d14841;
+}
+header.hi-valencia a.brand:hover,
+header.menu-hi-valencia .navbar-collapse.in a.brand:hover,
+header.menu-hi-valencia .navbar-collapse.collapsing a.brand:hover {
+  color: #d14841;
+}
+header.hi-valencia ul.nav > li > a.active,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #d14841 !important;
+  border-color: #d14841 !important;
+}
+header.hi-valencia ul.nav > li > a.active.filled,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  background-color: #d14841 !important;
+  color: #ffffff !important;
+}
+header.hi-valencia ul.nav > li > a.popout,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #d14841 !important;
+  border-color: #d14841 !important;
+}
+header.hi-valencia ul.nav > li > a.popout.filled,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #d14841 !important;
+  color: #ffffff !important;
+}
+header.hi-valencia ul.nav > li > a.popout.filled:hover,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+  border-color: #db706a !important;
+  background-color: #db706a !important;
+  color: #ffffff !important;
+}
+header.hi-valencia ul.nav > li > a.popout:hover,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #d14841 !important;
+  color: #ffffff !important;
+}
+header.hi-valencia ul.nav > li > a.filled:hover,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14841 !important;
+  background-color: #d14841 !important;
+  color: #ffffff !important;
+}
+header.hi-valencia ul.nav > li > a:hover,
+header.menu-hi-valencia .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-valencia .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #d14841 !important;
+  border-color: #d14841 !important;
+}
+footer.bg-valencia {
+  background: #d14841;
+}
+footer.txt-valencia {
+  border-top-color: #d14841;
+}
+.bg-valencia .form-inline .input-group-btn.f-btn {
+  background: #d14841;
+}
+.bg-valencia .form-inline .input-group-btn.f-btn:hover {
+  background: #b8312f;
+}
+.txt-valencia .form-control {
+  border-color: #d14841;
+}
+.txt-valencia .form-inline .input-group .input-group-btn:not(.f-btn):not(.r-btn) {
+  border-color: #d14841;
+}
+.hi-valencia .form-inline .input-group-btn.f-btn:hover {
+  background: #d14841;
+}

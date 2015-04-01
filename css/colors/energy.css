@@ -1,0 +1,344 @@
+.txt-energy .f-btn {
+  color: #f7da64;
+  border-color: #f7da64;
+}
+.txt-energy .f-btn.highlight {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+.txt-energy .f-btn:hover {
+  color: #ffffff;
+  background: #b8312f;
+  border-color: #b8312f;
+}
+.txt-energy .r-btn {
+  color: #252525;
+  border-color: #f7da64;
+  background: #f7da64;
+}
+.txt-energy .r-btn:hover {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-energy .r-btn.highlight {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-energy .r-btn.highlight:hover {
+  color: #ffffff;
+  background: #d14b49;
+  border-color: #d14b49;
+}
+.hi-energy .f-btn:hover {
+  background: #f7da64 !important;
+  border-color: #f7da64 !important;
+  color: #252525 !important;
+}
+.hi-energy .f-btn.highlight {
+  color: #f7da64 !important;
+  border-color: #f7da64 !important;
+}
+.hi-energy .f-btn.highlight:hover {
+  color: #252525 !important;
+}
+.hi-energy .r-btn:hover {
+  color: #252525 !important;
+  background: #f7da64 !important;
+  border-color: #f7da64 !important;
+}
+.hi-energy .r-btn.highlight {
+  color: #252525 !important;
+  background: #f7da64 !important;
+  border-color: #f7da64 !important;
+}
+.hi-energy .r-btn.highlight:hover {
+  background: #f4ce34 !important;
+  border-color: #f4ce34 !important;
+}
+.txt-energy {
+  color: #f7da64;
+}
+.txt-energy .bordered {
+  border-color: #f7da64;
+}
+.txt-energy .highlight {
+  color: #b8312f;
+}
+.txt-energy .highlight.bordered {
+  border-color: #b8312f;
+}
+.txt-energy .box {
+  border-color: #f7da64;
+}
+.txt-energy .box * {
+  border-color: #f7da64;
+}
+.hi-energy .highlight {
+  color: #f7da64 !important;
+}
+.hi-energy .highlight.bordered {
+  border-color: #f7da64;
+}
+.txt-energy .alt-link {
+  color: #f7da64;
+}
+.txt-energy .colored-box {
+  color: #f7da64;
+}
+.txt-energy .colored-box a.alt-link:not(.box-link) {
+  color: #f7da64;
+}
+.txt-energy .colored-box a.alt-link:not(.box-link):hover {
+  color: #e59c9b;
+}
+.txt-energy .colored-box a.box-link {
+  color: #f7da64;
+}
+.txt-energy .hover-box {
+  border-color: #f7da64;
+}
+.txt-energy .hover-box *:not(.highlight) {
+  color: #f7da64;
+}
+.txt-energy .hover-box:hover {
+  color: #ffffff;
+}
+.txt-energy .hover-box:hover * {
+  color: #ffffff;
+}
+.txt-energy .network-icon {
+  background: #f7da64;
+  color: #252525;
+}
+.txt-energy .network-icon:not(.r-btn):not(.f-btn):hover {
+  background: #fae694;
+  border-color: #fae694;
+}
+.txt-energy .network-icon.f-btn {
+  color: #f7da64;
+}
+.hi-energy:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link) {
+  color: #f7da64;
+}
+.hi-energy:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link).network-icon {
+  color: #ffffff;
+}
+.hi-energy:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link):hover {
+  color: #f3c91b;
+}
+.hi-energy .alt-link:hover {
+  color: #f7da64 !important;
+}
+.hi-energy .colored-box {
+  background: #f7da64;
+  color: #252525;
+}
+.hi-energy .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+  color: #b8960a;
+}
+.hi-energy .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+  color: #574705;
+}
+.hi-energy .colored-box a.alt-link {
+  color: #252525;
+}
+.hi-energy .colored-box a.alt-link:hover {
+  color: #b8960a !important;
+}
+.hi-energy .colored-box a.box-link {
+  color: #252525;
+}
+.hi-energy .colored-box a.box-link:after {
+  background-color: #000000;
+}
+.hi-energy .hover-box *:not(.highlight) {
+  color: #252525;
+}
+.hi-energy .hover-box:hover {
+  background: #f7da64;
+  color: #252525 !important;
+}
+.hi-energy .hover-box:hover * {
+  color: #252525 !important;
+}
+.hi-energy .network-icon.f-btn:not([class*='-hover']):hover {
+  color: #252525;
+  background: #f7da64;
+  border-color: #f7da64;
+}
+.hi-energy .network-icon.f-btn.highlight:hover {
+  background: #f7da64;
+  color: #252525;
+}
+.bg-energy:not([class*='overlay-']) {
+  background-color: #f7da64;
+}
+.bg-energy[class*='overlay-']:after {
+  background-color: #f7da64;
+}
+.bg-energy[class*='overlay-'] .contrast-bg {
+  background-color: #000000;
+  border-color: #000000;
+}
+.hi-energy .bg-highlight {
+  background-color: #f7da64 !important;
+  color: #000000 !important;
+}
+.hi-energy .border-highlight {
+  border-color: #f7da64 !important;
+}
+/* nav-in class in added to html. */
+/* Collapse */
+header.bg-energy,
+header.menu-bg-energy .navbar-collapse.in,
+header.menu-bg-energy .navbar-collapse.collapsing {
+  background-color: #f7da64;
+}
+header.txt-energy ul.nav > li.nav-btn a,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+  border-color: #f7da64;
+}
+header.txt-energy ul.nav > li > a,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a {
+  color: #f7da64;
+}
+header.txt-energy ul.nav > li > a.active,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-energy ul.nav > li > a.active.filled,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  color: #b8312f;
+  color: #ffffff;
+}
+header.txt-energy ul.nav > li > a.popout,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #b8312f;
+  border-color: #b8312f;
+  background-color: transparent;
+}
+header.txt-energy ul.nav > li > a.popout.filled,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #b8312f;
+  color: #ffffff;
+}
+header.txt-energy ul.nav > li > a.popout:hover,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #b8312f;
+  color: #ffffff;
+}
+header.txt-energy ul.nav > li > a.filled:hover,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14b49;
+  background-color: #d14b49;
+  color: #ffffff;
+}
+header.txt-energy ul.nav > li > a:hover,
+header.menu-txt-energy .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-energy .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-energy a.brand,
+header.menu-txt-energy .navbar-collapse.in a.brand,
+header.menu-txt-energy .navbar-collapse.collapsing a.brand {
+  color: #f7da64;
+}
+header.txt-energy button.dismiss-navbar,
+header.menu-txt-energy .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-energy .navbar-collapse.collapsing button.dismiss-navbar {
+  color: #f7da64;
+}
+header.txt-energy .navbar-toggle {
+  color: #f7da64;
+}
+header.txt-energy .navbar-toggle .icon-bar {
+  background-color: #f7da64;
+}
+header.hi-energy a.brand:hover,
+header.menu-hi-energy .navbar-collapse.in a.brand:hover,
+header.menu-hi-energy .navbar-collapse.collapsing a.brand:hover {
+  color: #f7da64;
+}
+header.hi-energy ul.nav > li > a.active,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #f7da64 !important;
+  border-color: #f7da64 !important;
+}
+header.hi-energy ul.nav > li > a.active.filled,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  background-color: #f7da64 !important;
+  color: #252525 !important;
+}
+header.hi-energy ul.nav > li > a.popout,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #f7da64 !important;
+  border-color: #f7da64 !important;
+}
+header.hi-energy ul.nav > li > a.popout.filled,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #f7da64 !important;
+  color: #252525 !important;
+}
+header.hi-energy ul.nav > li > a.popout.filled:hover,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+  border-color: #f4ce34 !important;
+  background-color: #f4ce34 !important;
+  color: #252525 !important;
+}
+header.hi-energy ul.nav > li > a.popout:hover,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #f7da64 !important;
+  color: #252525 !important;
+}
+header.hi-energy ul.nav > li > a.filled:hover,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #f7da64 !important;
+  background-color: #f7da64 !important;
+  color: #252525 !important;
+}
+header.hi-energy ul.nav > li > a:hover,
+header.menu-hi-energy .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-energy .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #f7da64 !important;
+  border-color: #f7da64 !important;
+}
+footer.bg-energy {
+  background: #f7da64;
+}
+footer.txt-energy {
+  border-top-color: #f7da64;
+}
+.bg-energy .form-inline .input-group-btn.f-btn {
+  background: #f7da64;
+}
+.bg-energy .form-inline .input-group-btn.f-btn:hover {
+  background: #b8312f;
+}
+.txt-energy .form-control {
+  border-color: #f7da64;
+}
+.txt-energy .form-inline .input-group .input-group-btn:not(.f-btn):not(.r-btn) {
+  border-color: #f7da64;
+}
+.hi-energy .form-inline .input-group-btn.f-btn:hover {
+  background: #f7da64;
+}

@@ -1,0 +1,344 @@
+.txt-almond-frost .f-btn {
+  color: #a38f84;
+  border-color: #a38f84;
+}
+.txt-almond-frost .f-btn.highlight {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+.txt-almond-frost .f-btn:hover {
+  color: #ffffff;
+  background: #b8312f;
+  border-color: #b8312f;
+}
+.txt-almond-frost .r-btn {
+  color: #ffffff;
+  border-color: #a38f84;
+  background: #a38f84;
+}
+.txt-almond-frost .r-btn:hover {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-almond-frost .r-btn.highlight {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-almond-frost .r-btn.highlight:hover {
+  color: #ffffff;
+  background: #d14b49;
+  border-color: #d14b49;
+}
+.hi-almond-frost .f-btn:hover {
+  background: #a38f84 !important;
+  border-color: #a38f84 !important;
+  color: #ffffff !important;
+}
+.hi-almond-frost .f-btn.highlight {
+  color: #a38f84 !important;
+  border-color: #a38f84 !important;
+}
+.hi-almond-frost .f-btn.highlight:hover {
+  color: #ffffff !important;
+}
+.hi-almond-frost .r-btn:hover {
+  color: #ffffff !important;
+  background: #a38f84 !important;
+  border-color: #a38f84 !important;
+}
+.hi-almond-frost .r-btn.highlight {
+  color: #ffffff !important;
+  background: #a38f84 !important;
+  border-color: #a38f84 !important;
+}
+.hi-almond-frost .r-btn.highlight:hover {
+  background: #8c7568 !important;
+  border-color: #8c7568 !important;
+}
+.txt-almond-frost {
+  color: #a38f84;
+}
+.txt-almond-frost .bordered {
+  border-color: #a38f84;
+}
+.txt-almond-frost .highlight {
+  color: #b8312f;
+}
+.txt-almond-frost .highlight.bordered {
+  border-color: #b8312f;
+}
+.txt-almond-frost .box {
+  border-color: #a38f84;
+}
+.txt-almond-frost .box * {
+  border-color: #a38f84;
+}
+.hi-almond-frost .highlight {
+  color: #a38f84 !important;
+}
+.hi-almond-frost .highlight.bordered {
+  border-color: #a38f84;
+}
+.txt-almond-frost .alt-link {
+  color: #a38f84;
+}
+.txt-almond-frost .colored-box {
+  color: #a38f84;
+}
+.txt-almond-frost .colored-box a.alt-link:not(.box-link) {
+  color: #a38f84;
+}
+.txt-almond-frost .colored-box a.alt-link:not(.box-link):hover {
+  color: #e59c9b;
+}
+.txt-almond-frost .colored-box a.box-link {
+  color: #a38f84;
+}
+.txt-almond-frost .hover-box {
+  border-color: #a38f84;
+}
+.txt-almond-frost .hover-box *:not(.highlight) {
+  color: #a38f84;
+}
+.txt-almond-frost .hover-box:hover {
+  color: #ffffff;
+}
+.txt-almond-frost .hover-box:hover * {
+  color: #ffffff;
+}
+.txt-almond-frost .network-icon {
+  background: #a38f84;
+  color: #ffffff;
+}
+.txt-almond-frost .network-icon:not(.r-btn):not(.f-btn):hover {
+  background: #b9aaa1;
+  border-color: #b9aaa1;
+}
+.txt-almond-frost .network-icon.f-btn {
+  color: #a38f84;
+}
+.hi-almond-frost:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link) {
+  color: #a38f84;
+}
+.hi-almond-frost:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link).network-icon {
+  color: #ffffff;
+}
+.hi-almond-frost:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link):hover {
+  color: #7d695d;
+}
+.hi-almond-frost .alt-link:hover {
+  color: #a38f84 !important;
+}
+.hi-almond-frost .colored-box {
+  background: #a38f84;
+  color: #ffffff;
+}
+.hi-almond-frost .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+  color: #e4dfdc;
+}
+.hi-almond-frost .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+  color: #ffffff;
+}
+.hi-almond-frost .colored-box a.alt-link {
+  color: #ffffff;
+}
+.hi-almond-frost .colored-box a.alt-link:hover {
+  color: #e4dfdc !important;
+}
+.hi-almond-frost .colored-box a.box-link {
+  color: #ffffff;
+}
+.hi-almond-frost .colored-box a.box-link:after {
+  background-color: #000000;
+}
+.hi-almond-frost .hover-box *:not(.highlight) {
+  color: #252525;
+}
+.hi-almond-frost .hover-box:hover {
+  background: #a38f84;
+  color: #ffffff !important;
+}
+.hi-almond-frost .hover-box:hover * {
+  color: #ffffff !important;
+}
+.hi-almond-frost .network-icon.f-btn:not([class*='-hover']):hover {
+  color: #252525;
+  background: #a38f84;
+  border-color: #a38f84;
+}
+.hi-almond-frost .network-icon.f-btn.highlight:hover {
+  background: #a38f84;
+  color: #252525;
+}
+.bg-almond-frost:not([class*='overlay-']) {
+  background-color: #a38f84;
+}
+.bg-almond-frost[class*='overlay-']:after {
+  background-color: #a38f84;
+}
+.bg-almond-frost[class*='overlay-'] .contrast-bg {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.hi-almond-frost .bg-highlight {
+  background-color: #a38f84 !important;
+  color: #ffffff !important;
+}
+.hi-almond-frost .border-highlight {
+  border-color: #a38f84 !important;
+}
+/* nav-in class in added to html. */
+/* Collapse */
+header.bg-almond-frost,
+header.menu-bg-almond-frost .navbar-collapse.in,
+header.menu-bg-almond-frost .navbar-collapse.collapsing {
+  background-color: #a38f84;
+}
+header.txt-almond-frost ul.nav > li.nav-btn a,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+  border-color: #a38f84;
+}
+header.txt-almond-frost ul.nav > li > a,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a {
+  color: #a38f84;
+}
+header.txt-almond-frost ul.nav > li > a.active,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-almond-frost ul.nav > li > a.active.filled,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  color: #b8312f;
+  color: #ffffff;
+}
+header.txt-almond-frost ul.nav > li > a.popout,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #b8312f;
+  border-color: #b8312f;
+  background-color: transparent;
+}
+header.txt-almond-frost ul.nav > li > a.popout.filled,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #b8312f;
+  color: #ffffff;
+}
+header.txt-almond-frost ul.nav > li > a.popout:hover,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #b8312f;
+  color: #ffffff;
+}
+header.txt-almond-frost ul.nav > li > a.filled:hover,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14b49;
+  background-color: #d14b49;
+  color: #ffffff;
+}
+header.txt-almond-frost ul.nav > li > a:hover,
+header.menu-txt-almond-frost .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-almond-frost .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-almond-frost a.brand,
+header.menu-txt-almond-frost .navbar-collapse.in a.brand,
+header.menu-txt-almond-frost .navbar-collapse.collapsing a.brand {
+  color: #a38f84;
+}
+header.txt-almond-frost button.dismiss-navbar,
+header.menu-txt-almond-frost .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-almond-frost .navbar-collapse.collapsing button.dismiss-navbar {
+  color: #a38f84;
+}
+header.txt-almond-frost .navbar-toggle {
+  color: #a38f84;
+}
+header.txt-almond-frost .navbar-toggle .icon-bar {
+  background-color: #a38f84;
+}
+header.hi-almond-frost a.brand:hover,
+header.menu-hi-almond-frost .navbar-collapse.in a.brand:hover,
+header.menu-hi-almond-frost .navbar-collapse.collapsing a.brand:hover {
+  color: #a38f84;
+}
+header.hi-almond-frost ul.nav > li > a.active,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #a38f84 !important;
+  border-color: #a38f84 !important;
+}
+header.hi-almond-frost ul.nav > li > a.active.filled,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  background-color: #a38f84 !important;
+  color: #ffffff !important;
+}
+header.hi-almond-frost ul.nav > li > a.popout,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #a38f84 !important;
+  border-color: #a38f84 !important;
+}
+header.hi-almond-frost ul.nav > li > a.popout.filled,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #a38f84 !important;
+  color: #ffffff !important;
+}
+header.hi-almond-frost ul.nav > li > a.popout.filled:hover,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+  border-color: #8c7568 !important;
+  background-color: #8c7568 !important;
+  color: #ffffff !important;
+}
+header.hi-almond-frost ul.nav > li > a.popout:hover,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #a38f84 !important;
+  color: #ffffff !important;
+}
+header.hi-almond-frost ul.nav > li > a.filled:hover,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #a38f84 !important;
+  background-color: #a38f84 !important;
+  color: #ffffff !important;
+}
+header.hi-almond-frost ul.nav > li > a:hover,
+header.menu-hi-almond-frost .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-almond-frost .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #a38f84 !important;
+  border-color: #a38f84 !important;
+}
+footer.bg-almond-frost {
+  background: #a38f84;
+}
+footer.txt-almond-frost {
+  border-top-color: #a38f84;
+}
+.bg-almond-frost .form-inline .input-group-btn.f-btn {
+  background: #a38f84;
+}
+.bg-almond-frost .form-inline .input-group-btn.f-btn:hover {
+  background: #b8312f;
+}
+.txt-almond-frost .form-control {
+  border-color: #a38f84;
+}
+.txt-almond-frost .form-inline .input-group .input-group-btn:not(.f-btn):not(.r-btn) {
+  border-color: #a38f84;
+}
+.hi-almond-frost .form-inline .input-group-btn.f-btn:hover {
+  background: #a38f84;
+}

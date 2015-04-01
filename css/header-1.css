@@ -1,0 +1,62 @@
+/* nav-in class in added to html. */
+/* Collapse */
+.header-1 .navbar .nav a.popout {
+  border-style: solid;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-width: 2px;
+  padding: 7px 10px;
+  margin: 11px 20px;
+}
+.header-1 .navbar .nav a.popout.text-thin {
+  border-width: 0.36px;
+}
+.header-1 .navbar .nav a.popout.text-light {
+  border-width: 1px;
+}
+.header-1 .navbar .nav a.popout.text-xsmall {
+  border-width: 1px;
+}
+.header-1 .navbar .nav a.popout.text-xsmall.text-thin {
+  border-width: 0.252px;
+}
+.header-1 .navbar .nav a.popout.text-xsmall.text-light {
+  border-width: 1px;
+}
+.header-1 .navbar .nav a.popout.text-small {
+  border-width: 2px;
+}
+.header-1 .navbar .nav a.popout.text-small.text-thin {
+  border-width: 0.324px;
+}
+.header-1 .navbar .nav a.popout.text-small.text-light {
+  border-width: 1px;
+}
+.header-1 .navbar .nav a.popout.text-large {
+  border-width: 3px;
+}
+.header-1 .navbar .nav a.popout.text-large.text-thin {
+  border-width: 0.432px;
+}
+.header-1 .navbar .nav a.popout.text-large.text-light {
+  border-width: 1px;
+}
+.header-1 .navbar .nav a.popout.text-xlarge {
+  border-width: 4px;
+}
+.header-1 .navbar .nav a.popout.text-xlarge.text-thin {
+  border-width: 0.54px;
+}
+.header-1 .navbar .nav a.popout.text-xlarge.text-light {
+  border-width: 2px;
+}
+.header-1 .navbar .nav a.popout.text-xxlarge {
+  border-width: 4px;
+}
+.header-1 .navbar .nav a.popout.text-xxlarge.text-thin {
+  border-width: 0.612px;
+}
+.header-1 .navbar .nav a.popout.text-xxlarge.text-light {
+  border-width: 2px;
+}

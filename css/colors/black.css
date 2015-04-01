@@ -1,0 +1,344 @@
+.txt-black .f-btn {
+  color: #000000;
+  border-color: #000000;
+}
+.txt-black .f-btn.highlight {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+.txt-black .f-btn:hover {
+  color: #ffffff;
+  background: #b8312f;
+  border-color: #b8312f;
+}
+.txt-black .r-btn {
+  color: #ffffff;
+  border-color: #000000;
+  background: #000000;
+}
+.txt-black .r-btn:hover {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-black .r-btn.highlight {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-black .r-btn.highlight:hover {
+  color: #ffffff;
+  background: #d14b49;
+  border-color: #d14b49;
+}
+.hi-black .f-btn:hover {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #ffffff !important;
+}
+.hi-black .f-btn.highlight {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+.hi-black .f-btn.highlight:hover {
+  color: #ffffff !important;
+}
+.hi-black .r-btn:hover {
+  color: #ffffff !important;
+  background: #000000 !important;
+  border-color: #000000 !important;
+}
+.hi-black .r-btn.highlight {
+  color: #ffffff !important;
+  background: #000000 !important;
+  border-color: #000000 !important;
+}
+.hi-black .r-btn.highlight:hover {
+  background: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+}
+.txt-black {
+  color: #000000;
+}
+.txt-black .bordered {
+  border-color: #000000;
+}
+.txt-black .highlight {
+  color: #b8312f;
+}
+.txt-black .highlight.bordered {
+  border-color: #b8312f;
+}
+.txt-black .box {
+  border-color: #000000;
+}
+.txt-black .box * {
+  border-color: #000000;
+}
+.hi-black .highlight {
+  color: #000000 !important;
+}
+.hi-black .highlight.bordered {
+  border-color: #000000;
+}
+.txt-black .alt-link {
+  color: #000000;
+}
+.txt-black .colored-box {
+  color: #000000;
+}
+.txt-black .colored-box a.alt-link:not(.box-link) {
+  color: #000000;
+}
+.txt-black .colored-box a.alt-link:not(.box-link):hover {
+  color: #e59c9b;
+}
+.txt-black .colored-box a.box-link {
+  color: #000000;
+}
+.txt-black .hover-box {
+  border-color: #000000;
+}
+.txt-black .hover-box *:not(.highlight) {
+  color: #000000;
+}
+.txt-black .hover-box:hover {
+  color: #ffffff;
+}
+.txt-black .hover-box:hover * {
+  color: #ffffff;
+}
+.txt-black .network-icon {
+  background: #000000;
+  color: #ffffff;
+}
+.txt-black .network-icon:not(.r-btn):not(.f-btn):hover {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+}
+.txt-black .network-icon.f-btn {
+  color: #000000;
+}
+.hi-black:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link) {
+  color: #000000;
+}
+.hi-black:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link).network-icon {
+  color: #ffffff;
+}
+.hi-black:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link):hover {
+  color: #262626;
+}
+.hi-black .alt-link:hover {
+  color: #000000 !important;
+}
+.hi-black .colored-box {
+  background: #000000;
+  color: #ffffff;
+}
+.hi-black .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+  color: #4d4d4d;
+}
+.hi-black .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+  color: #808080;
+}
+.hi-black .colored-box a.alt-link {
+  color: #ffffff;
+}
+.hi-black .colored-box a.alt-link:hover {
+  color: #4d4d4d !important;
+}
+.hi-black .colored-box a.box-link {
+  color: #ffffff;
+}
+.hi-black .colored-box a.box-link:after {
+  background-color: #ffffff;
+}
+.hi-black .hover-box *:not(.highlight) {
+  color: #252525;
+}
+.hi-black .hover-box:hover {
+  background: #000000;
+  color: #ffffff !important;
+}
+.hi-black .hover-box:hover * {
+  color: #ffffff !important;
+}
+.hi-black .network-icon.f-btn:not([class*='-hover']):hover {
+  color: #ffffff;
+  background: #000000;
+  border-color: #000000;
+}
+.hi-black .network-icon.f-btn.highlight:hover {
+  background: #000000;
+  color: #ffffff;
+}
+.bg-black:not([class*='overlay-']) {
+  background-color: #000000;
+}
+.bg-black[class*='overlay-']:after {
+  background-color: #000000;
+}
+.bg-black[class*='overlay-'] .contrast-bg {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.hi-black .bg-highlight {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.hi-black .border-highlight {
+  border-color: #000000 !important;
+}
+/* nav-in class in added to html. */
+/* Collapse */
+header.bg-black,
+header.menu-bg-black .navbar-collapse.in,
+header.menu-bg-black .navbar-collapse.collapsing {
+  background-color: #000000;
+}
+header.txt-black ul.nav > li.nav-btn a,
+header.menu-txt-black .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+  border-color: #000000;
+}
+header.txt-black ul.nav > li > a,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a {
+  color: #000000;
+}
+header.txt-black ul.nav > li > a.active,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-black ul.nav > li > a.active.filled,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  color: #b8312f;
+  color: #ffffff;
+}
+header.txt-black ul.nav > li > a.popout,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #b8312f;
+  border-color: #b8312f;
+  background-color: transparent;
+}
+header.txt-black ul.nav > li > a.popout.filled,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #b8312f;
+  color: #ffffff;
+}
+header.txt-black ul.nav > li > a.popout:hover,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #b8312f;
+  color: #ffffff;
+}
+header.txt-black ul.nav > li > a.filled:hover,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14b49;
+  background-color: #d14b49;
+  color: #ffffff;
+}
+header.txt-black ul.nav > li > a:hover,
+header.menu-txt-black .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-black .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-black a.brand,
+header.menu-txt-black .navbar-collapse.in a.brand,
+header.menu-txt-black .navbar-collapse.collapsing a.brand {
+  color: #000000;
+}
+header.txt-black button.dismiss-navbar,
+header.menu-txt-black .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-black .navbar-collapse.collapsing button.dismiss-navbar {
+  color: #000000;
+}
+header.txt-black .navbar-toggle {
+  color: #000000;
+}
+header.txt-black .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+header.hi-black a.brand:hover,
+header.menu-hi-black .navbar-collapse.in a.brand:hover,
+header.menu-hi-black .navbar-collapse.collapsing a.brand:hover {
+  color: #000000;
+}
+header.hi-black ul.nav > li > a.active,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+header.hi-black ul.nav > li > a.active.filled,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+header.hi-black ul.nav > li > a.popout,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+header.hi-black ul.nav > li > a.popout.filled,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+header.hi-black ul.nav > li > a.popout.filled:hover,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+  border-color: #1a1a1a !important;
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+header.hi-black ul.nav > li > a.popout:hover,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+header.hi-black ul.nav > li > a.filled:hover,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #000000 !important;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+header.hi-black ul.nav > li > a:hover,
+header.menu-hi-black .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-black .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+footer.bg-black {
+  background: #000000;
+}
+footer.txt-black {
+  border-top-color: #000000;
+}
+.bg-black .form-inline .input-group-btn.f-btn {
+  background: #000000;
+}
+.bg-black .form-inline .input-group-btn.f-btn:hover {
+  background: #b8312f;
+}
+.txt-black .form-control {
+  border-color: #000000;
+}
+.txt-black .form-inline .input-group .input-group-btn:not(.f-btn):not(.r-btn) {
+  border-color: #000000;
+}
+.hi-black .form-inline .input-group-btn.f-btn:hover {
+  background: #000000;
+}

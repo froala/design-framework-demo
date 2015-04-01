@@ -1,0 +1,344 @@
+.txt-white-smoke .f-btn {
+  color: #efefef;
+  border-color: #efefef;
+}
+.txt-white-smoke .f-btn.highlight {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+.txt-white-smoke .f-btn:hover {
+  color: #ffffff;
+  background: #b8312f;
+  border-color: #b8312f;
+}
+.txt-white-smoke .r-btn {
+  color: #252525;
+  border-color: #efefef;
+  background: #efefef;
+}
+.txt-white-smoke .r-btn:hover {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-white-smoke .r-btn.highlight {
+  color: #ffffff;
+  border-color: #b8312f;
+  background: #b8312f;
+}
+.txt-white-smoke .r-btn.highlight:hover {
+  color: #ffffff;
+  background: #d14b49;
+  border-color: #d14b49;
+}
+.hi-white-smoke .f-btn:hover {
+  background: #efefef !important;
+  border-color: #efefef !important;
+  color: #252525 !important;
+}
+.hi-white-smoke .f-btn.highlight {
+  color: #efefef !important;
+  border-color: #efefef !important;
+}
+.hi-white-smoke .f-btn.highlight:hover {
+  color: #252525 !important;
+}
+.hi-white-smoke .r-btn:hover {
+  color: #252525 !important;
+  background: #efefef !important;
+  border-color: #efefef !important;
+}
+.hi-white-smoke .r-btn.highlight {
+  color: #252525 !important;
+  background: #efefef !important;
+  border-color: #efefef !important;
+}
+.hi-white-smoke .r-btn.highlight:hover {
+  background: #d6d6d6 !important;
+  border-color: #d6d6d6 !important;
+}
+.txt-white-smoke {
+  color: #efefef;
+}
+.txt-white-smoke .bordered {
+  border-color: #efefef;
+}
+.txt-white-smoke .highlight {
+  color: #b8312f;
+}
+.txt-white-smoke .highlight.bordered {
+  border-color: #b8312f;
+}
+.txt-white-smoke .box {
+  border-color: #efefef;
+}
+.txt-white-smoke .box * {
+  border-color: #efefef;
+}
+.hi-white-smoke .highlight {
+  color: #efefef !important;
+}
+.hi-white-smoke .highlight.bordered {
+  border-color: #efefef;
+}
+.txt-white-smoke .alt-link {
+  color: #efefef;
+}
+.txt-white-smoke .colored-box {
+  color: #efefef;
+}
+.txt-white-smoke .colored-box a.alt-link:not(.box-link) {
+  color: #efefef;
+}
+.txt-white-smoke .colored-box a.alt-link:not(.box-link):hover {
+  color: #e59c9b;
+}
+.txt-white-smoke .colored-box a.box-link {
+  color: #efefef;
+}
+.txt-white-smoke .hover-box {
+  border-color: #efefef;
+}
+.txt-white-smoke .hover-box *:not(.highlight) {
+  color: #efefef;
+}
+.txt-white-smoke .hover-box:hover {
+  color: #ffffff;
+}
+.txt-white-smoke .hover-box:hover * {
+  color: #ffffff;
+}
+.txt-white-smoke .network-icon {
+  background: #efefef;
+  color: #252525;
+}
+.txt-white-smoke .network-icon:not(.r-btn):not(.f-btn):hover {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.txt-white-smoke .network-icon.f-btn {
+  color: #efefef;
+}
+.hi-white-smoke:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link) {
+  color: #efefef;
+}
+.hi-white-smoke:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link).network-icon {
+  color: #ffffff;
+}
+.hi-white-smoke:not(header) a:not(.r-btn):not(.f-btn):not(.box-link):not(.network-icon):not(.header-link):not(.alt-link):hover {
+  color: #c9c9c9;
+}
+.hi-white-smoke .alt-link:hover {
+  color: #efefef !important;
+}
+.hi-white-smoke .colored-box {
+  background: #efefef;
+  color: #252525;
+}
+.hi-white-smoke .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+  color: #a3a3a3;
+}
+.hi-white-smoke .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+  color: #707070;
+}
+.hi-white-smoke .colored-box a.alt-link {
+  color: #252525;
+}
+.hi-white-smoke .colored-box a.alt-link:hover {
+  color: #a3a3a3 !important;
+}
+.hi-white-smoke .colored-box a.box-link {
+  color: #252525;
+}
+.hi-white-smoke .colored-box a.box-link:after {
+  background-color: #000000;
+}
+.hi-white-smoke .hover-box *:not(.highlight) {
+  color: #252525;
+}
+.hi-white-smoke .hover-box:hover {
+  background: #efefef;
+  color: #252525 !important;
+}
+.hi-white-smoke .hover-box:hover * {
+  color: #252525 !important;
+}
+.hi-white-smoke .network-icon.f-btn:not([class*='-hover']):hover {
+  color: #252525;
+  background: #efefef;
+  border-color: #efefef;
+}
+.hi-white-smoke .network-icon.f-btn.highlight:hover {
+  background: #efefef;
+  color: #252525;
+}
+.bg-white-smoke:not([class*='overlay-']) {
+  background-color: #efefef;
+}
+.bg-white-smoke[class*='overlay-']:after {
+  background-color: #efefef;
+}
+.bg-white-smoke[class*='overlay-'] .contrast-bg {
+  background-color: #000000;
+  border-color: #000000;
+}
+.hi-white-smoke .bg-highlight {
+  background-color: #efefef !important;
+  color: #000000 !important;
+}
+.hi-white-smoke .border-highlight {
+  border-color: #efefef !important;
+}
+/* nav-in class in added to html. */
+/* Collapse */
+header.bg-white-smoke,
+header.menu-bg-white-smoke .navbar-collapse.in,
+header.menu-bg-white-smoke .navbar-collapse.collapsing {
+  background-color: #efefef;
+}
+header.txt-white-smoke ul.nav > li.nav-btn a,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+  border-color: #efefef;
+}
+header.txt-white-smoke ul.nav > li > a,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a {
+  color: #efefef;
+}
+header.txt-white-smoke ul.nav > li > a.active,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-white-smoke ul.nav > li > a.active.filled,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  color: #b8312f;
+  color: #ffffff;
+}
+header.txt-white-smoke ul.nav > li > a.popout,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #b8312f;
+  border-color: #b8312f;
+  background-color: transparent;
+}
+header.txt-white-smoke ul.nav > li > a.popout.filled,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #b8312f;
+  color: #ffffff;
+}
+header.txt-white-smoke ul.nav > li > a.popout:hover,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #b8312f;
+  color: #ffffff;
+}
+header.txt-white-smoke ul.nav > li > a.filled:hover,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #d14b49;
+  background-color: #d14b49;
+  color: #ffffff;
+}
+header.txt-white-smoke ul.nav > li > a:hover,
+header.menu-txt-white-smoke .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-white-smoke .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #b8312f;
+  border-color: #b8312f;
+}
+header.txt-white-smoke a.brand,
+header.menu-txt-white-smoke .navbar-collapse.in a.brand,
+header.menu-txt-white-smoke .navbar-collapse.collapsing a.brand {
+  color: #efefef;
+}
+header.txt-white-smoke button.dismiss-navbar,
+header.menu-txt-white-smoke .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-white-smoke .navbar-collapse.collapsing button.dismiss-navbar {
+  color: #efefef;
+}
+header.txt-white-smoke .navbar-toggle {
+  color: #efefef;
+}
+header.txt-white-smoke .navbar-toggle .icon-bar {
+  background-color: #efefef;
+}
+header.hi-white-smoke a.brand:hover,
+header.menu-hi-white-smoke .navbar-collapse.in a.brand:hover,
+header.menu-hi-white-smoke .navbar-collapse.collapsing a.brand:hover {
+  color: #efefef;
+}
+header.hi-white-smoke ul.nav > li > a.active,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.active {
+  color: #efefef !important;
+  border-color: #efefef !important;
+}
+header.hi-white-smoke ul.nav > li > a.active.filled,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+  background-color: #efefef !important;
+  color: #252525 !important;
+}
+header.hi-white-smoke ul.nav > li > a.popout,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout {
+  color: #efefef !important;
+  border-color: #efefef !important;
+}
+header.hi-white-smoke ul.nav > li > a.popout.filled,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+  background-color: #efefef !important;
+  color: #252525 !important;
+}
+header.hi-white-smoke ul.nav > li > a.popout.filled:hover,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+  border-color: #d6d6d6 !important;
+  background-color: #d6d6d6 !important;
+  color: #252525 !important;
+}
+header.hi-white-smoke ul.nav > li > a.popout:hover,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+  background: #efefef !important;
+  color: #252525 !important;
+}
+header.hi-white-smoke ul.nav > li > a.filled:hover,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+  border-color: #efefef !important;
+  background-color: #efefef !important;
+  color: #252525 !important;
+}
+header.hi-white-smoke ul.nav > li > a:hover,
+header.menu-hi-white-smoke .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-white-smoke .navbar-collapse.collapsing ul.nav > li > a:hover {
+  color: #efefef !important;
+  border-color: #efefef !important;
+}
+footer.bg-white-smoke {
+  background: #efefef;
+}
+footer.txt-white-smoke {
+  border-top-color: #efefef;
+}
+.bg-white-smoke .form-inline .input-group-btn.f-btn {
+  background: #efefef;
+}
+.bg-white-smoke .form-inline .input-group-btn.f-btn:hover {
+  background: #b8312f;
+}
+.txt-white-smoke .form-control {
+  border-color: #efefef;
+}
+.txt-white-smoke .form-inline .input-group .input-group-btn:not(.f-btn):not(.r-btn) {
+  border-color: #efefef;
+}
+.hi-white-smoke .form-inline .input-group-btn.f-btn:hover {
+  background: #efefef;
+}
