@@ -131,26 +131,26 @@
 .hi-neon-carrot .alt-link:hover {
   color: #fba026 !important;
 }
-.hi-neon-carrot .colored-box {
+.hi-neon-carrot:not(header) .colored-box {
   background: #fba026;
   color: #252525;
 }
-.hi-neon-carrot .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-neon-carrot:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #864e02;
 }
-.hi-neon-carrot .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-neon-carrot:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #211301;
 }
-.hi-neon-carrot .colored-box a.alt-link {
+.hi-neon-carrot:not(header) .colored-box a.alt-link {
   color: #252525;
 }
-.hi-neon-carrot .colored-box a.alt-link:hover {
+.hi-neon-carrot:not(header) .colored-box a.alt-link:hover {
   color: #864e02 !important;
 }
-.hi-neon-carrot .colored-box a.box-link {
+.hi-neon-carrot:not(header) .colored-box a.box-link {
   color: #252525;
 }
-.hi-neon-carrot .colored-box a.box-link:after {
+.hi-neon-carrot:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-neon-carrot .hover-box *:not(.highlight) {

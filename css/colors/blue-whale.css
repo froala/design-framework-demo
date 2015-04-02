@@ -131,26 +131,26 @@
 .hi-blue-whale .alt-link:hover {
   color: #28324e !important;
 }
-.hi-blue-whale .colored-box {
+.hi-blue-whale:not(header) .colored-box {
   background: #28324e;
   color: #ffffff;
 }
-.hi-blue-whale .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-blue-whale:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #6175ae;
 }
-.hi-blue-whale .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-blue-whale:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #a4b0d1;
 }
-.hi-blue-whale .colored-box a.alt-link {
+.hi-blue-whale:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-blue-whale .colored-box a.alt-link:hover {
+.hi-blue-whale:not(header) .colored-box a.alt-link:hover {
   color: #6175ae !important;
 }
-.hi-blue-whale .colored-box a.box-link {
+.hi-blue-whale:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-blue-whale .colored-box a.box-link:after {
+.hi-blue-whale:not(header) .colored-box a.box-link:after {
   background-color: #ffffff;
 }
 .hi-blue-whale .hover-box *:not(.highlight) {

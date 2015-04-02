@@ -131,26 +131,26 @@
 .hi-blue-gem .alt-link:hover {
   color: #553982 !important;
 }
-.hi-blue-gem .colored-box {
+.hi-blue-gem:not(header) .colored-box {
   background: #553982;
   color: #ffffff;
 }
-.hi-blue-gem .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-blue-gem:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #a289cb;
 }
-.hi-blue-gem .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-blue-gem:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #dad0ea;
 }
-.hi-blue-gem .colored-box a.alt-link {
+.hi-blue-gem:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-blue-gem .colored-box a.alt-link:hover {
+.hi-blue-gem:not(header) .colored-box a.alt-link:hover {
   color: #a289cb !important;
 }
-.hi-blue-gem .colored-box a.box-link {
+.hi-blue-gem:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-blue-gem .colored-box a.box-link:after {
+.hi-blue-gem:not(header) .colored-box a.box-link:after {
   background-color: #ffffff;
 }
 .hi-blue-gem .hover-box *:not(.highlight) {

@@ -131,26 +131,26 @@
 .hi-picton-blue .alt-link:hover {
   color: #54acd2 !important;
 }
-.hi-picton-blue .colored-box {
+.hi-picton-blue:not(header) .colored-box {
   background: #54acd2;
   color: #252525;
 }
-.hi-picton-blue .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-picton-blue:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #1d5770;
 }
-.hi-picton-blue .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-picton-blue:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #08181f;
 }
-.hi-picton-blue .colored-box a.alt-link {
+.hi-picton-blue:not(header) .colored-box a.alt-link {
   color: #252525;
 }
-.hi-picton-blue .colored-box a.alt-link:hover {
+.hi-picton-blue:not(header) .colored-box a.alt-link:hover {
   color: #1d5770 !important;
 }
-.hi-picton-blue .colored-box a.box-link {
+.hi-picton-blue:not(header) .colored-box a.box-link {
   color: #252525;
 }
-.hi-picton-blue .colored-box a.box-link:after {
+.hi-picton-blue:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-picton-blue .hover-box *:not(.highlight) {

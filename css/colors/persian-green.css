@@ -131,26 +131,26 @@
 .hi-persian-green .alt-link:hover {
   color: #00a885 !important;
 }
-.hi-persian-green .colored-box {
+.hi-persian-green:not(header) .colored-box {
   background: #00a885;
   color: #ffffff;
 }
-.hi-persian-green .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-persian-green:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #42ffd8;
 }
-.hi-persian-green .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-persian-green:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #a8ffed;
 }
-.hi-persian-green .colored-box a.alt-link {
+.hi-persian-green:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-persian-green .colored-box a.alt-link:hover {
+.hi-persian-green:not(header) .colored-box a.alt-link:hover {
   color: #42ffd8 !important;
 }
-.hi-persian-green .colored-box a.box-link {
+.hi-persian-green:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-persian-green .colored-box a.box-link:after {
+.hi-persian-green:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-persian-green .hover-box *:not(.highlight) {

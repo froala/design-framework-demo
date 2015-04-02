@@ -131,26 +131,26 @@
 .hi-terra-cotta .alt-link:hover {
   color: #eb6b56 !important;
 }
-.hi-terra-cotta .colored-box {
+.hi-terra-cotta:not(header) .colored-box {
   background: #eb6b56;
   color: #ffffff;
 }
-.hi-terra-cotta .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-terra-cotta:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #fbe3df;
 }
-.hi-terra-cotta .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-terra-cotta:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #ffffff;
 }
-.hi-terra-cotta .colored-box a.alt-link {
+.hi-terra-cotta:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-terra-cotta .colored-box a.alt-link:hover {
+.hi-terra-cotta:not(header) .colored-box a.alt-link:hover {
   color: #fbe3df !important;
 }
-.hi-terra-cotta .colored-box a.box-link {
+.hi-terra-cotta:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-terra-cotta .colored-box a.box-link:after {
+.hi-terra-cotta:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-terra-cotta .hover-box *:not(.highlight) {

@@ -131,26 +131,26 @@
 .hi-almost-black .alt-link:hover {
   color: #171717 !important;
 }
-.hi-almost-black .colored-box {
+.hi-almost-black:not(header) .colored-box {
   background: #171717;
   color: #ffffff;
 }
-.hi-almost-black .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-almost-black:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #646464;
 }
-.hi-almost-black .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-almost-black:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #979797;
 }
-.hi-almost-black .colored-box a.alt-link {
+.hi-almost-black:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-almost-black .colored-box a.alt-link:hover {
+.hi-almost-black:not(header) .colored-box a.alt-link:hover {
   color: #646464 !important;
 }
-.hi-almost-black .colored-box a.box-link {
+.hi-almost-black:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-almost-black .colored-box a.box-link:after {
+.hi-almost-black:not(header) .colored-box a.box-link:after {
   background-color: #ffffff;
 }
 .hi-almost-black .hover-box *:not(.highlight) {

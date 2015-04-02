@@ -131,26 +131,26 @@
 .hi-valencia .alt-link:hover {
   color: #d14841 !important;
 }
-.hi-valencia .colored-box {
+.hi-valencia:not(header) .colored-box {
   background: #d14841;
   color: #ffffff;
 }
-.hi-valencia .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-valencia:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #efbfbc;
 }
-.hi-valencia .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-valencia:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #ffffff;
 }
-.hi-valencia .colored-box a.alt-link {
+.hi-valencia:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-valencia .colored-box a.alt-link:hover {
+.hi-valencia:not(header) .colored-box a.alt-link:hover {
   color: #efbfbc !important;
 }
-.hi-valencia .colored-box a.box-link {
+.hi-valencia:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-valencia .colored-box a.box-link:after {
+.hi-valencia:not(header) .colored-box a.box-link:after {
   background-color: #ffffff;
 }
 .hi-valencia .hover-box *:not(.highlight) {

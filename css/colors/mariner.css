@@ -131,26 +131,26 @@
 .hi-mariner .alt-link:hover {
   color: #2c82c9 !important;
 }
-.hi-mariner .colored-box {
+.hi-mariner:not(header) .colored-box {
   background: #2c82c9;
   color: #ffffff;
 }
-.hi-mariner .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-mariner:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #a3caeb;
 }
-.hi-mariner .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-mariner:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #f7fafd;
 }
-.hi-mariner .colored-box a.alt-link {
+.hi-mariner:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-mariner .colored-box a.alt-link:hover {
+.hi-mariner:not(header) .colored-box a.alt-link:hover {
   color: #a3caeb !important;
 }
-.hi-mariner .colored-box a.box-link {
+.hi-mariner:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-mariner .colored-box a.box-link:after {
+.hi-mariner:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-mariner .hover-box *:not(.highlight) {

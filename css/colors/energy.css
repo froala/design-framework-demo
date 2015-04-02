@@ -131,26 +131,26 @@
 .hi-energy .alt-link:hover {
   color: #f7da64 !important;
 }
-.hi-energy .colored-box {
+.hi-energy:not(header) .colored-box {
   background: #f7da64;
   color: #252525;
 }
-.hi-energy .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-energy:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #b8960a;
 }
-.hi-energy .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-energy:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #574705;
 }
-.hi-energy .colored-box a.alt-link {
+.hi-energy:not(header) .colored-box a.alt-link {
   color: #252525;
 }
-.hi-energy .colored-box a.alt-link:hover {
+.hi-energy:not(header) .colored-box a.alt-link:hover {
   color: #b8960a !important;
 }
-.hi-energy .colored-box a.box-link {
+.hi-energy:not(header) .colored-box a.box-link {
   color: #252525;
 }
-.hi-energy .colored-box a.box-link:after {
+.hi-energy:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-energy .hover-box *:not(.highlight) {

@@ -131,26 +131,26 @@
 .hi-cinnabar .alt-link:hover {
   color: #e25041 !important;
 }
-.hi-cinnabar .colored-box {
+.hi-cinnabar:not(header) .colored-box {
   background: #e25041;
   color: #ffffff;
 }
-.hi-cinnabar .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
+.hi-cinnabar:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link) {
   color: #f6cac6;
 }
-.hi-cinnabar .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
+.hi-cinnabar:not(header) .colored-box a:not(.box-link):not(.r-btn):not(.f-btn):not(.header-link):not(.alt-link):hover {
   color: #ffffff;
 }
-.hi-cinnabar .colored-box a.alt-link {
+.hi-cinnabar:not(header) .colored-box a.alt-link {
   color: #ffffff;
 }
-.hi-cinnabar .colored-box a.alt-link:hover {
+.hi-cinnabar:not(header) .colored-box a.alt-link:hover {
   color: #f6cac6 !important;
 }
-.hi-cinnabar .colored-box a.box-link {
+.hi-cinnabar:not(header) .colored-box a.box-link {
   color: #ffffff;
 }
-.hi-cinnabar .colored-box a.box-link:after {
+.hi-cinnabar:not(header) .colored-box a.box-link:after {
   background-color: #000000;
 }
 .hi-cinnabar .hover-box *:not(.highlight) {
