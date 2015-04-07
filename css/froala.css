@@ -4506,7 +4506,7 @@ header .navbar-toggle:hover .icon-bar + .icon-bar {
 }
 body:after {
   content: "";
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   right: 100%;
