@@ -4446,7 +4446,7 @@ header .navbar-toggle {
     display: block;
   }
 }
-header .navbar-toggle > div {
+header .navbar-toggle > span.icon-wrap {
   position: absolute;
   top: 13px;
   left: 0;
@@ -4484,7 +4484,7 @@ header .navbar-toggle .icon-bar.icon-last {
   -moz-opacity: 0;
   opacity: 0;
 }
-header .navbar-toggle:hover > div {
+header .navbar-toggle:hover > span.icon-wrap {
   top: 6px;
 }
 header .navbar-toggle:hover .icon-bar {
