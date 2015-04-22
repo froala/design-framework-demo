@@ -4284,7 +4284,7 @@ header.header-over {
   position: absolute;
   top: 0;
   padding: 30px 0;
-  z-index: 101;
+  z-index: 1001;
 }
 header.header-over + section div.container {
   padding-top: 80px;
@@ -4520,7 +4520,7 @@ body:after {
   -moz-transition: opacity 0.2s ease 0s;
   -o-transition: opacity 0.2s ease 0s;
   transition: opacity 0.2s ease 0s;
-  z-index: 100;
+  z-index: 1000;
 }
 html.nav-in {
   height: 100%;
@@ -4539,7 +4539,7 @@ html.nav-in .navbar-collapse {
   max-height: inherit;
   display: block;
   border-left: solid 1px rgba(0, 0, 0, 0.15);
-  z-index: 101;
+  z-index: 1001;
 }
 html.nav-in .navbar-fixed-top,
 html.nav-in .navbar-fixed-bottom {
@@ -4567,7 +4567,7 @@ html.nav-in .navbar-fixed-bottom {
     max-height: inherit;
     display: block;
     border-left: solid 1px rgba(0, 0, 0, 0.15);
-    z-index: 101;
+    z-index: 1001;
   }
   html.nav-in .navbar-fixed-top,
   html.nav-in .navbar-fixed-bottom {
@@ -4596,7 +4596,7 @@ html.nav-in .navbar-fixed-bottom {
     max-height: inherit;
     display: block;
     border-left: solid 1px rgba(0, 0, 0, 0.15);
-    z-index: 101;
+    z-index: 1001;
   }
   html.nav-in .navbar-fixed-top,
   html.nav-in .navbar-fixed-bottom {
@@ -4762,7 +4762,7 @@ header.collapse-navbar .navbar-toggle {
     max-height: inherit;
     display: block;
     border-left: solid 1px rgba(0, 0, 0, 0.15);
-    z-index: 101;
+    z-index: 1001;
   }
   html.nav-in .navbar-fixed-top,
   html.nav-in .navbar-fixed-bottom {
@@ -4820,15 +4820,15 @@ section.blog-post-image,
   overflow: hidden;
   position: relative;
   background-color: #FFF;
-  -webkit-background-size: 100% !important;
-  -moz-background-size: 100% !important;
-  -o-background-size: 100% !important;
-  background-size: 100% !important;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
-  background-position: center !important;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
   z-index: 1;
 }
 [class*="content-"].fixed-bg,
@@ -4853,19 +4853,6 @@ section.blog-post-image.fixed-bg,
 [class*="team-"].parallax-bg,
 section.blog-post-image.parallax-bg,
 .fdk-block.parallax-bg {
-  background-color: transparent;
-}
-[class*="content-"].fixed-bg,
-[class*="blog_feed-"].fixed-bg,
-[class*="blog_post-"].fixed-bg,
-[class*="social-"].fixed-bg,
-[class*="testimonial-"].fixed-bg,
-[class*="landing-"].fixed-bg,
-[class*="pricing-"].fixed-bg,
-[class*="contact-"].fixed-bg,
-[class*="team-"].fixed-bg,
-section.blog-post-image.fixed-bg,
-.fdk-block.fixed-bg {
   background-attachment: fixed !important;
 }
 [class*="content-"].fixed-bg.parallax-disabled,
@@ -4878,8 +4865,20 @@ section.blog-post-image.fixed-bg,
 [class*="contact-"].fixed-bg.parallax-disabled,
 [class*="team-"].fixed-bg.parallax-disabled,
 section.blog-post-image.fixed-bg.parallax-disabled,
-.fdk-block.fixed-bg.parallax-disabled {
+.fdk-block.fixed-bg.parallax-disabled,
+[class*="content-"].parallax-bg.parallax-disabled,
+[class*="blog_feed-"].parallax-bg.parallax-disabled,
+[class*="blog_post-"].parallax-bg.parallax-disabled,
+[class*="social-"].parallax-bg.parallax-disabled,
+[class*="testimonial-"].parallax-bg.parallax-disabled,
+[class*="landing-"].parallax-bg.parallax-disabled,
+[class*="pricing-"].parallax-bg.parallax-disabled,
+[class*="contact-"].parallax-bg.parallax-disabled,
+[class*="team-"].parallax-bg.parallax-disabled,
+section.blog-post-image.parallax-bg.parallax-disabled,
+.fdk-block.parallax-bg.parallax-disabled {
   background-attachment: scroll !important;
+  background-position: center !important;
 }
 [class*="content-"].full-width .container,
 [class*="blog_feed-"].full-width .container,
@@ -5069,12 +5068,14 @@ section.blog-post-image .border-highlight,
   [class*="team-"].screen-height .container,
   section.blog-post-image.screen-height .container,
   .fdk-block.screen-height .container {
-    position: relative;
+    position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    left: 0;
+    right: 0;
   }
   [class*="content-"].screen-height.align-bottom .container,
   [class*="blog_feed-"].screen-height.align-bottom .container,

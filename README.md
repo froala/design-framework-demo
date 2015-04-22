@@ -1,7 +1,7 @@
 # Froala Design Kit Demo
 Froala Design Kit is a modern design library that comes with neat HTML5 and CSS3 design blocks ready to be combined together to create astonishing designs.
 
-This demo showcases just a small part of what the design kit is capable off. For live preview checkout [flatdesignkit.com](http://flatdesignkit.com)
+This demo showcases just a small part of what the design kit is capable off. For live preview see [http://www.flatdesignkit.com](http://www.flatdesignkit.com)
 
 ## Useful Links
 * Official website:  [froala.com/design-kit](http://froala.com/design-kit)
@@ -15,6 +15,8 @@ This demo showcases just a small part of what the design kit is capable off. For
 The Froala Design Kit Demo consists of:
 * 8 design blocks
 * 6 line icons
-* ...
+* Fixed image background
+* Parallax effects
 
 ## Licensing
+For Froala Design Kit License please see https://www.froala.com/design-kit/terms.
