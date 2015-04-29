@@ -3,6 +3,11 @@ Froala Design Kit is a modern design library that comes with neat HTML5 and CSS3
 
 This demo showcases just a small part of what the design kit is capable off. For live preview see [http://www.flatdesignkit.com](http://www.flatdesignkit.com)
 
+You are allowed to download this demo and use it to create your own website under the following coditions:
+* add a link to [Froala Design Kit](http://froala.com/design-kit) on your website
+* keep all copyright notices
+* your are not allowed to create a similar product
+
 ## Useful Links
 * Official website:  [froala.com/design-kit](http://froala.com/design-kit)
 * Official documentation:  [froala.com/design-kit/docs](http://froala.com/design-kit/docs)
