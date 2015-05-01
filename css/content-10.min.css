@@ -1,1 +1,1 @@
-.content-10{padding:50px 0;text-align:center}.content-10 *+.container-auto{margin-top:30px}@media (max-width:991px){.content-10 .container .row div+div{margin-top:30px}}
+.content-10{padding:50px 0;text-align:center}.content-10 *+.container-auto{margin-top:30px}.content-10 .container .row div+div{margin-top:30px}@media (min-width:992px){.content-10 .container .row div+div{margin-top:0}}

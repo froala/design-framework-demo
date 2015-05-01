@@ -63,12 +63,6 @@
 .txt-blue-gem .bordered {
   border-color: #553982;
 }
-.txt-blue-gem .highlight {
-  color: #b8312f;
-}
-.txt-blue-gem .highlight.bordered {
-  border-color: #b8312f;
-}
 .txt-blue-gem .box {
   border-color: #553982;
 }
@@ -191,133 +185,133 @@
 }
 /* nav-in class in added to html. */
 /* Collapse */
-header.bg-blue-gem,
-header.menu-bg-blue-gem .navbar-collapse.in,
-header.menu-bg-blue-gem .navbar-collapse.collapsing {
+header.bg-blue-gem .navbar,
+header.menu-bg-blue-gem .navbar .navbar-collapse.in,
+header.menu-bg-blue-gem .navbar .navbar-collapse.collapsing {
   background-color: #553982;
 }
-header.txt-blue-gem ul.nav > li.nav-btn a,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li.nav-btn a,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+header.txt-blue-gem .navbar ul.nav > li.nav-btn a,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li.nav-btn a {
   border-color: #553982;
 }
-header.txt-blue-gem ul.nav > li > a,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a {
+header.txt-blue-gem .navbar ul.nav > li > a,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a {
   color: #553982;
 }
-header.txt-blue-gem ul.nav > li > a.active,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a.active,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a.active {
+header.txt-blue-gem .navbar ul.nav > li > a.active,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.active {
   color: #b8312f;
   border-color: #b8312f;
 }
-header.txt-blue-gem ul.nav > li > a.active.filled,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a.active.filled,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+header.txt-blue-gem .navbar ul.nav > li > a.active.filled,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.active.filled {
   color: #b8312f;
   color: #ffffff;
 }
-header.txt-blue-gem ul.nav > li > a.popout,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a.popout,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout {
+header.txt-blue-gem .navbar ul.nav > li > a.popout,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout {
   color: #b8312f;
   border-color: #b8312f;
   background-color: transparent;
 }
-header.txt-blue-gem ul.nav > li > a.popout.filled,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a.popout.filled,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+header.txt-blue-gem .navbar ul.nav > li > a.popout.filled,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
   background-color: #b8312f;
   color: #ffffff;
 }
-header.txt-blue-gem ul.nav > li > a.popout:hover,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a.popout:hover,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+header.txt-blue-gem .navbar ul.nav > li > a.popout:hover,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
   background: #b8312f;
   color: #ffffff;
 }
-header.txt-blue-gem ul.nav > li > a.filled:hover,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a.filled:hover,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+header.txt-blue-gem .navbar ul.nav > li > a.filled:hover,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
   border-color: #d14b49;
   background-color: #d14b49;
   color: #ffffff;
 }
-header.txt-blue-gem ul.nav > li > a:hover,
-header.menu-txt-blue-gem .navbar-collapse.in ul.nav > li > a:hover,
-header.menu-txt-blue-gem .navbar-collapse.collapsing ul.nav > li > a:hover {
+header.txt-blue-gem .navbar ul.nav > li > a:hover,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a:hover {
   color: #b8312f;
   border-color: #b8312f;
 }
-header.txt-blue-gem a.brand,
-header.menu-txt-blue-gem .navbar-collapse.in a.brand,
-header.menu-txt-blue-gem .navbar-collapse.collapsing a.brand {
+header.txt-blue-gem .navbar button.dismiss-navbar,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing button.dismiss-navbar {
   color: #553982;
 }
-header.txt-blue-gem button.dismiss-navbar,
-header.menu-txt-blue-gem .navbar-collapse.in button.dismiss-navbar,
-header.menu-txt-blue-gem .navbar-collapse.collapsing button.dismiss-navbar {
+header.txt-blue-gem .navbar .brand,
+header.menu-txt-blue-gem .navbar .navbar-collapse.in .brand,
+header.menu-txt-blue-gem .navbar .navbar-collapse.collapsing .brand {
   color: #553982;
 }
-header.txt-blue-gem .navbar-toggle {
+header.txt-blue-gem .navbar .navbar-toggle {
   color: #553982;
 }
-header.txt-blue-gem .navbar-toggle .icon-bar {
+header.txt-blue-gem .navbar .navbar-toggle .icon-bar {
   background-color: #553982;
 }
-header.hi-blue-gem a.brand:hover,
-header.menu-hi-blue-gem .navbar-collapse.in a.brand:hover,
-header.menu-hi-blue-gem .navbar-collapse.collapsing a.brand:hover {
+header.hi-blue-gem .navbar a.brand:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in a.brand:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing a.brand:hover {
   color: #553982;
 }
-header.hi-blue-gem ul.nav > li > a.active,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.active,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.active {
+header.hi-blue-gem .navbar ul.nav > li > a.active,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.active {
   color: #553982 !important;
   border-color: #553982 !important;
 }
-header.hi-blue-gem ul.nav > li > a.active.filled,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.active.filled,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+header.hi-blue-gem .navbar ul.nav > li > a.active.filled,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.active.filled {
   background-color: #553982 !important;
   color: #ffffff !important;
 }
-header.hi-blue-gem ul.nav > li > a.popout,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.popout,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout {
+header.hi-blue-gem .navbar ul.nav > li > a.popout,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout {
   color: #553982 !important;
   border-color: #553982 !important;
 }
-header.hi-blue-gem ul.nav > li > a.popout.filled,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.popout.filled,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+header.hi-blue-gem .navbar ul.nav > li > a.popout.filled,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
   background-color: #553982 !important;
   color: #ffffff !important;
 }
-header.hi-blue-gem ul.nav > li > a.popout.filled:hover,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+header.hi-blue-gem .navbar ul.nav > li > a.popout.filled:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
   border-color: #6c49a5 !important;
   background-color: #6c49a5 !important;
   color: #ffffff !important;
 }
-header.hi-blue-gem ul.nav > li > a.popout:hover,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.popout:hover,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+header.hi-blue-gem .navbar ul.nav > li > a.popout:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
   background: #553982 !important;
   color: #ffffff !important;
 }
-header.hi-blue-gem ul.nav > li > a.filled:hover,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a.filled:hover,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+header.hi-blue-gem .navbar ul.nav > li > a.filled:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
   border-color: #553982 !important;
   background-color: #553982 !important;
   color: #ffffff !important;
 }
-header.hi-blue-gem ul.nav > li > a:hover,
-header.menu-hi-blue-gem .navbar-collapse.in ul.nav > li > a:hover,
-header.menu-hi-blue-gem .navbar-collapse.collapsing ul.nav > li > a:hover {
+header.hi-blue-gem .navbar ul.nav > li > a:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-blue-gem .navbar .navbar-collapse.collapsing ul.nav > li > a:hover {
   color: #553982 !important;
   border-color: #553982 !important;
 }

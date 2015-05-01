@@ -63,12 +63,6 @@
 .txt-white .bordered {
   border-color: #ffffff;
 }
-.txt-white .highlight {
-  color: #b8312f;
-}
-.txt-white .highlight.bordered {
-  border-color: #b8312f;
-}
 .txt-white .box {
   border-color: #ffffff;
 }
@@ -191,133 +185,133 @@
 }
 /* nav-in class in added to html. */
 /* Collapse */
-header.bg-white,
-header.menu-bg-white .navbar-collapse.in,
-header.menu-bg-white .navbar-collapse.collapsing {
+header.bg-white .navbar,
+header.menu-bg-white .navbar .navbar-collapse.in,
+header.menu-bg-white .navbar .navbar-collapse.collapsing {
   background-color: #ffffff;
 }
-header.txt-white ul.nav > li.nav-btn a,
-header.menu-txt-white .navbar-collapse.in ul.nav > li.nav-btn a,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li.nav-btn a {
+header.txt-white .navbar ul.nav > li.nav-btn a,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li.nav-btn a,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li.nav-btn a {
   border-color: #ffffff;
 }
-header.txt-white ul.nav > li > a,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a {
+header.txt-white .navbar ul.nav > li > a,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a {
   color: #ffffff;
 }
-header.txt-white ul.nav > li > a.active,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a.active,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a.active {
+header.txt-white .navbar ul.nav > li > a.active,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a.active,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a.active {
   color: #b8312f;
   border-color: #b8312f;
 }
-header.txt-white ul.nav > li > a.active.filled,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a.active.filled,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+header.txt-white .navbar ul.nav > li > a.active.filled,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a.active.filled {
   color: #b8312f;
   color: #ffffff;
 }
-header.txt-white ul.nav > li > a.popout,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a.popout,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a.popout {
+header.txt-white .navbar ul.nav > li > a.popout,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout {
   color: #b8312f;
   border-color: #b8312f;
   background-color: transparent;
 }
-header.txt-white ul.nav > li > a.popout.filled,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a.popout.filled,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+header.txt-white .navbar ul.nav > li > a.popout.filled,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
   background-color: #b8312f;
   color: #ffffff;
 }
-header.txt-white ul.nav > li > a.popout:hover,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a.popout:hover,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+header.txt-white .navbar ul.nav > li > a.popout:hover,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
   background: #b8312f;
   color: #ffffff;
 }
-header.txt-white ul.nav > li > a.filled:hover,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a.filled:hover,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+header.txt-white .navbar ul.nav > li > a.filled:hover,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
   border-color: #d14b49;
   background-color: #d14b49;
   color: #ffffff;
 }
-header.txt-white ul.nav > li > a:hover,
-header.menu-txt-white .navbar-collapse.in ul.nav > li > a:hover,
-header.menu-txt-white .navbar-collapse.collapsing ul.nav > li > a:hover {
+header.txt-white .navbar ul.nav > li > a:hover,
+header.menu-txt-white .navbar .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-txt-white .navbar .navbar-collapse.collapsing ul.nav > li > a:hover {
   color: #b8312f;
   border-color: #b8312f;
 }
-header.txt-white a.brand,
-header.menu-txt-white .navbar-collapse.in a.brand,
-header.menu-txt-white .navbar-collapse.collapsing a.brand {
+header.txt-white .navbar button.dismiss-navbar,
+header.menu-txt-white .navbar .navbar-collapse.in button.dismiss-navbar,
+header.menu-txt-white .navbar .navbar-collapse.collapsing button.dismiss-navbar {
   color: #ffffff;
 }
-header.txt-white button.dismiss-navbar,
-header.menu-txt-white .navbar-collapse.in button.dismiss-navbar,
-header.menu-txt-white .navbar-collapse.collapsing button.dismiss-navbar {
+header.txt-white .navbar .brand,
+header.menu-txt-white .navbar .navbar-collapse.in .brand,
+header.menu-txt-white .navbar .navbar-collapse.collapsing .brand {
   color: #ffffff;
 }
-header.txt-white .navbar-toggle {
+header.txt-white .navbar .navbar-toggle {
   color: #ffffff;
 }
-header.txt-white .navbar-toggle .icon-bar {
+header.txt-white .navbar .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-header.hi-white a.brand:hover,
-header.menu-hi-white .navbar-collapse.in a.brand:hover,
-header.menu-hi-white .navbar-collapse.collapsing a.brand:hover {
+header.hi-white .navbar a.brand:hover,
+header.menu-hi-white .navbar .navbar-collapse.in a.brand:hover,
+header.menu-hi-white .navbar .navbar-collapse.collapsing a.brand:hover {
   color: #ffffff;
 }
-header.hi-white ul.nav > li > a.active,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.active,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.active {
+header.hi-white .navbar ul.nav > li > a.active,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.active,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.active {
   color: #ffffff !important;
   border-color: #ffffff !important;
 }
-header.hi-white ul.nav > li > a.active.filled,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.active.filled,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.active.filled {
+header.hi-white .navbar ul.nav > li > a.active.filled,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.active.filled,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.active.filled {
   background-color: #ffffff !important;
   color: #252525 !important;
 }
-header.hi-white ul.nav > li > a.popout,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.popout,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.popout {
+header.hi-white .navbar ul.nav > li > a.popout,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.popout,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout {
   color: #ffffff !important;
   border-color: #ffffff !important;
 }
-header.hi-white ul.nav > li > a.popout.filled,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.popout.filled,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
+header.hi-white .navbar ul.nav > li > a.popout.filled,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.popout.filled,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout.filled {
   background-color: #ffffff !important;
   color: #252525 !important;
 }
-header.hi-white ul.nav > li > a.popout.filled:hover,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
+header.hi-white .navbar ul.nav > li > a.popout.filled:hover,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.popout.filled:hover,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout.filled:hover {
   border-color: #e6e6e6 !important;
   background-color: #e6e6e6 !important;
   color: #252525 !important;
 }
-header.hi-white ul.nav > li > a.popout:hover,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.popout:hover,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
+header.hi-white .navbar ul.nav > li > a.popout:hover,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.popout:hover,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.popout:hover {
   background: #ffffff !important;
   color: #252525 !important;
 }
-header.hi-white ul.nav > li > a.filled:hover,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a.filled:hover,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
+header.hi-white .navbar ul.nav > li > a.filled:hover,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a.filled:hover,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a.filled:hover {
   border-color: #ffffff !important;
   background-color: #ffffff !important;
   color: #252525 !important;
 }
-header.hi-white ul.nav > li > a:hover,
-header.menu-hi-white .navbar-collapse.in ul.nav > li > a:hover,
-header.menu-hi-white .navbar-collapse.collapsing ul.nav > li > a:hover {
+header.hi-white .navbar ul.nav > li > a:hover,
+header.menu-hi-white .navbar .navbar-collapse.in ul.nav > li > a:hover,
+header.menu-hi-white .navbar .navbar-collapse.collapsing ul.nav > li > a:hover {
   color: #ffffff !important;
   border-color: #ffffff !important;
 }

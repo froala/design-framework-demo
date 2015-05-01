@@ -1,24 +1,27 @@
-@media (max-width: 767px) {
+.testimonial-5 {
+  text-align: center;
+}
+@media (min-width: 768px) {
   .testimonial-5 {
-    text-align: center;
+    text-align: inherit;
   }
 }
 .testimonial-5 .container * + .row {
-  margin-top: 50px;
+  margin-top: 30px;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .testimonial-5 .container * + .row {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
 .testimonial-5 .container .row + .row .black-box,
 .testimonial-5 .container .row + .row .white-box {
-  margin-top: -20px;
+  margin-top: 0;
 }
-@media (max-width: 991px) {
+@media (min-width: 992px) {
   .testimonial-5 .container .row + .row .black-box,
   .testimonial-5 .container .row + .row .white-box {
-    margin-top: 0;
+    margin-top: -20px;
   }
 }
 .testimonial-5 .container img {
@@ -35,7 +38,6 @@
   }
 }
 @media (max-width: 991px) {
-  .testimonial-5 .container * + .row,
   .testimonial-5 .container .col-md-6 + .col-md-6 {
     margin-top: 30px;
   }
